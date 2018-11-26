@@ -4,6 +4,7 @@ import time
 import subprocess
 import os
 import glob
+import socket   # to check if on network
 #for weather below
 import json
 from stat import * # ST_SIZE etc
@@ -13,6 +14,25 @@ os.environ["SDL_MOUSEDEV"] = "/dev/input/touchscreen"
 os.environ["SDL_MOUSEDRV"] = "TSLIB"
 pygame.init()
 
+def online():
+    # are we online?
+    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    try:
+        s.connect(('192.168.0.1', 80))
+        return ('Online')
+    except socket.error as e:
+        print "Error on connect: %s" % e
+        return ("Offline") 
+    s.close()
+
+def shutdown():
+    # this is mostly event driven so either we need an event or a loop
+    # or a thread to actually run
+    t = time.strftime('%X')
+    t = t[:2]       #just the hour
+    if t == '24':
+        print ('Shutting down')
+        
 # weather
 def weather():
     file = 'weather.json'
@@ -54,31 +74,32 @@ def checkweather():
         time.sleep(2)
         print ('temp')
 
-def statn():
-    station = subprocess.check_output("mpc current", shell=True )
-    station_name = station[0:4].upper()
-    #print (station_name)
-    lines = station.split(':')
-    length = len(lines)
-    #print ("="* 12 + str(lines))
+def station_list():
+    # build a dict of stations from playlist.txt
+    values=[]
+    stations={}
+
+    lines = open('playlist.txt', 'r', 444).readlines()
+    for line in lines:
+        for line in lines:
+            line = line.rstrip("\n")
+            values.append(line)
+     
+    keys = range((len(values)))
+     
+    for i in keys:
+        stations[i+1] = values[i]
+
+    return (stations)
     
-    if length == 1:
-        return  (station_name, "--", "--") 
-    elif length == 2:
-        print ('=' * 20)
-        print lines[1]
-        return (station_name, lines[1], "--")
-    elif length ==3:
-        print ('=' * 20)
-        print lines[2]
-        return (station_name, lines[1], lines[2])
-    
-    #return  (station_name, "--", "--")
-    #print(station_name, lines[1], lines[2])
-    return (station_name, lines[1], lines[2])
+def get_current_station():
+        # get playlist position from mpc
+    station = subprocess.check_output('mpc -f %position%', shell=True)
+        # and return it's number
+    return(station[0])
 
 def is_online():
- ####### check to see if the Radio is connected to the internet
+        # connected to the internet?
     IP = subprocess.check_output("hostname -I", shell=True )
     IP=IP[:3]
     if IP =="192":
@@ -146,7 +167,6 @@ def on_click():
         if 270 <= click_pos[0] <= 320 and 180 <= click_pos[1] <=250:
             refresh_menu_screen()  #refresh the menu interface
             
-         
     #   Play/Pause
     if 70 <= click_pos[0] <= 120 and 180 <= click_pos[1] <=230:
         x = subprocess.check_output("mpc toggle", shell=True)
@@ -171,53 +191,46 @@ def on_click():
             pygame.display.flip()
             refresh_menu_screen()
          
-    
     #   Refresh  
     if 270 <= click_pos[0] <= 320 and 5 <= click_pos[1] <=55:
         subprocess.call("mpc stop ", shell=True)
         subprocess.call("mpc play ", shell=True)
         refresh_menu_screen() 
-        
     #   Previous  
-    if 10 <= click_pos[0] <= 60 and 180 <= click_pos[1] <=230:
+    elif 10 <= click_pos[0] <= 60 and 180 <= click_pos[1] <=230:
         #print ("You pressed button previous")
         subprocess.call("mpc prev ", shell=True)
         refresh_menu_screen()
-        
      #  Next  
-    if 130 <= click_pos[0] <= 180 and 180 <= click_pos[1] <=230:
-        subprocess.call("mpc next ", shell=True)
-        refresh_menu_screen()
-        
+    elif 130 <= click_pos[0] <= 180 and 180 <= click_pos[1] <=230:
+        pos = int(get_current_station())
+        end_of_list = len(stations)
+        print (pos, end_of_list)
+        if pos <= end_of_list:
+            subprocess.call("mpc next ", shell=True)
+            #subprocess.call("mpc play" + str(pos+1), shell=True)
+            refresh_menu_screen()
      #  KZE  
-    if 15 <= click_pos[0] <= 67 and 80 <= click_pos[1] <=132:
+    elif 15 <= click_pos[0] <= 67 and 80 <= click_pos[1] <=132:
         print ("Play WKZE")
         subprocess.call("mpc play 1", shell=True)
         refresh_menu_screen()
-         
     #   NYC
-    if 75 <= click_pos[0] <= 127 and 80 <= click_pos[1] <=132:
+    elif 75 <= click_pos[0] <= 127 and 80 <= click_pos[1] <=132:
         subprocess.call("mpc play 5", shell=True)
         refresh_menu_screen()
-        
     #  VKR
-    if 135 <= click_pos[0] <= 187 and 80 <= click_pos[1] <=132:
-        print ("You pressed exit")
+    elif 135 <= click_pos[0] <= 187 and 80 <= click_pos[1] <=132:
         subprocess.call("mpc play 7", shell=True)
         refresh_menu_screen()
-        
-     #  MHT ==> now Minnesota
-    if 195 <= click_pos[0] <= 247 and 80 <= click_pos[1] <=132:
-        #print ("You pressed button 9")
+     #  MHT 
+    elif 195 <= click_pos[0] <= 247 and 80 <= click_pos[1] <=132:
         subprocess.call("mpc play 2", shell=True)
         refresh_menu_screen()
-
      #  QXR
-    if 255 <= click_pos[0] <= 307 and 80 <= click_pos[1] <=132:
-        #print ("You pressed button 9")
+    elif 255 <= click_pos[0] <= 307 and 80 <= click_pos[1] <=132:
         subprocess.call("mpc play 3", shell=True)
         refresh_menu_screen()
-        
 
 def refresh_menu_screen(state = 1):     #default to playing
     # Set up the fixed items on the menu
@@ -261,16 +274,18 @@ def refresh_menu_screen(state = 1):     #default to playing
     
     pygame.draw.rect(screen, darkgreen, (0,0,320,240),1)
     
-    #station_name=station_font.render(line1, 1, (red))
-    station_name = station_font.render(statn()[0], 1, (red))
-    #additional_data=title_font.render(line2, 1, (blue))
-    additional_data = title_font.render(statn()[2], 1, (blue))
+    number = int(get_current_station())
+    name = (stations[number])
+    station_name = station_font.render(name, 1, (red))
+ 
+    
+    #additional_data = title_font.render(statn()[2], 1, (blue))
     screen.blit(station_name,(12,6))   #13,145
-    screen.blit(additional_data,(12,45)) #12, 160
+    #screen.blit(additional_data,(12,45)) #12, 160
 
     is_online()
     
-    #   Weather and date
+        #  Weather and date
     wthr= weather()
     date = time.ctime()[:11]
     msg = date + ',' + wthr
@@ -303,7 +318,7 @@ def main():
 #set size of the screen
 size = width, height = 320, 240
 screen = pygame.display.set_mode(size)
-pygame.mouse.set_visible(True)
+pygame.mouse.set_visible(False)
 subprocess.call("mpc play ", shell=True)         # start with radio on
 blue = 26, 0, 255
 cream = 254, 255, 25
@@ -314,11 +329,10 @@ yellow = 255, 255, 0
 red = 255, 0, 0
 green = 0, 255, 0
 darkgreen = 0, 128, 0
-statn()
+stations = station_list()   
 refresh_menu_screen()  #refresh the menu interface
 # Download weather on startup if file is older than an hour
 #wget  -q -O - "http://api.openweathermap.org/data/2.5/weather?id=5131321&units=imperial&APPID=abfabebe9f6f95d0bd9bda048799910b"
-
 
  
 main() #check for key presses and start emergency exit
