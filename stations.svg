@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="stations.svg"
+   inkscape:export-filename="/run/user/1000/gvfs/sftp:host=192.168.254.42/home/pi/radio/wmht.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="205.28358"
+     inkscape:cy="764.79034"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1375"
+     inkscape:window-height="876"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g4209"
+       transform="translate(5.0932606,-107.23968)">
+      <rect
+         ry="8.9285717"
+         y="275.21936"
+         x="91.428574"
+         height="50"
+         width="50"
+         id="rect4136"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4138"
+         y="307.21936"
+         x="99.152794"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:'Accanthis ADF Std No3';-inkscape-font-specification:'Accanthis ADF Std No3, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="307.21936"
+           x="99.152794"
+           id="tspan4140"
+           sodipodi:role="line">KZE</tspan></text>
+    </g>
+    <g
+       id="g4199"
+       transform="translate(6.2578515,-106.52538)">
+      <rect
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4142"
+         width="50"
+         height="50"
+         x="156.78572"
+         y="274.50507"
+         ry="8.9285717" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4148"
+         y="304.10507"
+         x="161.8829"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:'Accanthis ADF Std No3';-inkscape-font-specification:'Accanthis ADF Std No3, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="304.10507"
+           x="161.8829"
+           id="tspan4150"
+           sodipodi:role="line">QXR</tspan></text>
+    </g>
+    <g
+       id="g4214"
+       transform="translate(134.20816,-172.59683)">
+      <rect
+         ry="8.9285717"
+         y="340.57651"
+         x="95.357147"
+         height="50"
+         width="50"
+         id="rect4144"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4152"
+         y="372.57651"
+         x="102.84637"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:'Accanthis ADF Std No3';-inkscape-font-specification:'Accanthis ADF Std No3, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="372.57651"
+           x="102.84637"
+           id="tspan4154"
+           sodipodi:role="line">NYC</tspan></text>
+    </g>
+    <g
+       id="g4204"
+       transform="translate(136.80131,-173.31112)">
+      <rect
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4146"
+         width="50"
+         height="50"
+         x="159.28572"
+         y="341.2908"
+         ry="8.9285717" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4156"
+         y="373.1908"
+         x="166.10469"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:'Accanthis ADF Std No3';-inkscape-font-specification:'Accanthis ADF Std No3, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="373.1908"
+           x="166.10469"
+           id="tspan4158"
+           sodipodi:role="line">VKR</tspan></text>
+    </g>
+    <g
+       id="g4194"
+       transform="translate(-59.9999,-49.025399)">
+      <rect
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4179"
+         width="50"
+         height="50"
+         x="90"
+         y="217.00508"
+         ry="8.9285717" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4183"
+         y="249.00508"
+         x="94.809845"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:'Accanthis ADF Std No3';-inkscape-font-specification:'Accanthis ADF Std No3, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="249.00508"
+           x="94.809845"
+           id="tspan4185"
+           sodipodi:role="line">MHT</tspan></text>
+    </g>
+    <g
+       id="g4219"
+       transform="translate(205.23132,-47.989865)">
+      <g
+         transform="translate(2.0203051,-3.5355339)"
+         id="g4191">
+        <rect
+           style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect4181"
+           width="50"
+           height="50"
+           x="155.35715"
+           y="219.50508"
+           ry="8.9285717" />
+      </g>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4187"
+         y="247.96954"
+         x="163.59418"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:'Accanthis ADF Std No3';-inkscape-font-specification:'Accanthis ADF Std No3, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="247.96954"
+           x="163.59418"
+           id="tspan4189"
+           sodipodi:role="line">AMC</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:'Accanthis ADF Std No3';-inkscape-font-specification:'Accanthis ADF Std No3, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="41.921329"
+       y="331.61838"
+       id="text4227"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4229"
+         x="41.921329"
+         y="331.61838" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       x="253.04321"
+       y="342.22498"
+       id="text4235"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4239"></tspan></text>
+    <g
+       id="g4311"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         ry="8.9285717"
+         y="237.68021"
+         x="30.000099"
+         height="50"
+         width="50"
+         id="rect4192"
+         style="fill:#db1b1b;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4241"
+         y="269.97025"
+         x="31.728615"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="269.97025"
+           x="31.728615"
+           id="tspan4243"
+           sodipodi:role="line">MHT</tspan></text>
+    </g>
+    <g
+       id="g4316"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:#db1b1b;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4160"
+         width="50"
+         height="50"
+         x="96.521835"
+         y="237.68021"
+         ry="8.9285717" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4245"
+         y="269.97025"
+         x="101.44371"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="269.97025"
+           x="101.44371"
+           id="tspan4247"
+           sodipodi:role="line">KZE</tspan></text>
+    </g>
+    <g
+       id="g4321"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         ry="8.9285717"
+         y="237.68021"
+         x="164.28163"
+         height="50"
+         width="50"
+         id="rect4168"
+         style="fill:#db1b1b;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4249"
+         y="268.81302"
+         x="167.33339"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="268.81302"
+           x="167.33339"
+           id="tspan4251"
+           sodipodi:role="line">QXR</tspan></text>
+    </g>
+    <g
+       id="g4326"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:#db1b1b;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4176"
+         width="50"
+         height="50"
+         x="230.74588"
+         y="237.68021"
+         ry="8.9285717" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4253"
+         y="269.96048"
+         x="235.27713"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="269.96048"
+           x="235.27713"
+           id="tspan4255"
+           sodipodi:role="line">NYC</tspan></text>
+    </g>
+    <g
+       id="g4331"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         ry="8.9285717"
+         y="237.68021"
+         x="298.16559"
+         height="50"
+         width="50"
+         id="rect4184"
+         style="fill:#db1b1b;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4257"
+         y="269.97025"
+         x="303.02887"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="269.97025"
+           x="303.02887"
+           id="tspan4259"
+           sodipodi:role="line">VKR</tspan></text>
+    </g>
+    <g
+       id="g4336"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         style="fill:#db1b1b;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+         id="g4200"
+         transform="translate(211.0024,18.175126)">
+        <rect
+           ry="8.9285717"
+           y="219.50508"
+           x="155.35715"
+           height="50"
+           width="50"
+           id="rect4202"
+           style="fill:#db1b1b;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4261"
+         y="269.96048"
+         x="369.37225"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="269.96048"
+           x="369.37225"
+           id="tspan4263"
+           sodipodi:role="line">AMC</tspan></text>
+    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4265"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:'DejaVu Sans';font-style:normal;font-weight:normal;font-size:20px;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;text-align:start;writing-mode:lr;-inkscape-font-specification:'DejaVu Sans, Normal';font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion4267"><rect
+           id="rect4269"
+           width="417.69809"
+           height="56.568542"
+           x="-0.50507629"
+           y="300.30365" /></flowRegion><flowPara
+         id="flowPara4271"></flowPara></flowRoot>    <g
+       id="g4368">
+      <rect
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4281"
+         width="50"
+         height="50"
+         x="29.360939"
+         y="303.84518"
+         ry="8.9285717" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="31.089455"
+         y="336.13522"
+         id="text4287"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4289"
+           x="31.089455"
+           y="336.13522">MHT</tspan></text>
+    </g>
+    <g
+       id="g4363">
+      <rect
+         ry="8.9285717"
+         y="303.84518"
+         x="96.521835"
+         height="50"
+         width="50"
+         id="rect4273"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="101.44371"
+         y="336.13522"
+         id="text4291"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4293"
+           x="101.44371"
+           y="336.13522">KZE</tspan></text>
+    </g>
+    <g
+       id="g4358">
+      <rect
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4275"
+         width="50"
+         height="50"
+         x="163.04358"
+         y="303.84518"
+         ry="8.9285717" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="166.09534"
+         y="334.978"
+         id="text4295"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4297"
+           x="166.09534"
+           y="334.978">QXR</tspan></text>
+    </g>
+    <g
+       id="g4353">
+      <rect
+         ry="8.9285717"
+         y="303.84518"
+         x="229.56531"
+         height="50"
+         width="50"
+         id="rect4277"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="234.09656"
+         y="336.12546"
+         id="text4299"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4301"
+           x="234.09656"
+           y="336.12546">NYC</tspan></text>
+    </g>
+    <g
+       id="g4348">
+      <rect
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4279"
+         width="50"
+         height="50"
+         x="296.08704"
+         y="303.84518"
+         ry="8.9285717" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="300.95032"
+         y="336.13522"
+         id="text4303"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4305"
+           x="300.95032"
+           y="336.13522">VKR</tspan></text>
+    </g>
+    <g
+       id="g4342">
+      <g
+         transform="translate(207.71941,84.340117)"
+         id="g4283"
+         style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-opacity:1">
+        <rect
+           style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect4285"
+           width="50"
+           height="50"
+           x="155.35715"
+           y="219.50508"
+           ry="8.9285717" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="366.08926"
+         y="336.12546"
+         id="text4307"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4309"
+           x="366.08926"
+           y="336.12546">AMC</tspan></text>
+    </g>
+  </g>
+</svg>
