@@ -9,13 +9,13 @@ mpc add http://wnyc-wqxr-ice.streamguys.com:80/wqxr
 #WJFF:Public
 mpc add http://amber.streamguys.com:4510
 #WNYC:Public
-mpc add http://fm939.wnyc.org/wnycfmm
+mpc add http://fm939.wnyc.org/wnycfm
 #WAMC:Public
 mpc add http://18093.live.streamtheworld.com:80/WAMCFMAAC_SC
 #WVKR:College
 mpc add http://16083.live.streamtheworld.com:80/WVKRFM_SC
 #WFDU:College
-mpc add http://sc03.warpradio.com:8602/
+### mpc add http://sc03.warpradio.com:8602/
 #WFMU:College
 mpc add  http://stream0.wfmu.org/freeform-128k
 #WBGO:Jazz

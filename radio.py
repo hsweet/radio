@@ -78,12 +78,11 @@ def station_list():
     # build a dict of stations from playlist.txt
     values=[]
     stations={}
-
+    
     lines = open('playlist.txt', 'r', 444).readlines()
     for line in lines:
-        for line in lines:
-            line = line.rstrip("\n")
-            values.append(line)
+        line = line.rstrip("\n")
+        values.append(line)
      
     keys = range((len(values)))
      
@@ -92,11 +91,14 @@ def station_list():
 
     return (stations)
     
-def get_current_station():
+def get_current_station(l):
         # get playlist position from mpc
     station = subprocess.check_output('mpc -f %position%', shell=True)
-        # and return it's number
-    return(station[0])
+        # and return it's number if not > than length of station list
+    if station[0] <= l:   
+        return(station[0])
+    else:
+        return 1
 
 def is_online():
         # connected to the internet?
@@ -115,47 +117,6 @@ def is_online():
 def on_click():
     click_pos = (pygame.mouse.get_pos() [0], pygame.mouse.get_pos() [1])
     # print ("Can't quit'")
-    '''
-    if 270 <= click_pos[0] <= 320 and 180 <= click_pos[1] <=250:
-        #global end_clicks
-        #end_clicks = end_clicks +1
-        #print (end_clicks)
-        
-        screen.fill(black)
-        subprocess.call("mpc pause", shell=True)
-        # restart
-        if 0 <= click_pos[0] <= 320 and 0 <= click_pos[1] <=240:
-            print ('Restarting')
-            subprocess.call("mpc play", shell=True)
-            refresh_menu_screen()
-            
-        
-        
-        #   Shutdown on 2 clicks
-        if end_clicks == 2:
-            print ("Shutting Down !")
-            screen.fill(black)
-            restart=pygame.image.load("play.png")
-            screen.blit(restart, (70, 180))
-            subprocess.call("mpc stop", shell=True)
-            #subprocess.call("clear", shell=True)
-            #sys.exit()
-            #subprocess.call("shutdown -h now >/dev/null", shell=True)
-            if 70 <= click_pos[0] <= 120 and 180 <= click_pos[1] <=230:
-                subprocess.call("mpc play", shell=True)
-                refresh_menu_screen()
-        else:    
-            screen.fill(black)
-            font=pygame.font.Font(None, 36)
-            label=font.render("Press  to shut down", 1, (red))
-            screen.blit(label,(10,90))
-            exit=pygame.image.load("exit.png")
-            screen.blit(exit, (265,185))
-            pygame.display.flip()
-            time.sleep(5)
-            refresh_menu_screen()
-            #sys.exit()
-    '''
     #   Exit
     if 270 <= click_pos[0] <= 320 and 180 <= click_pos[1] <=250:
         print ('Exit routine')
@@ -203,7 +164,9 @@ def on_click():
         refresh_menu_screen()
      #  Next  
     elif 130 <= click_pos[0] <= 180 and 180 <= click_pos[1] <=230:
-        pos = int(get_current_station())
+        station = subprocess.check_output('mpc -f %position%', shell=True)
+        pos = int(station)
+        #pos = int(get_current_station(number_of_stations))
         end_of_list = len(stations)
         print (pos, end_of_list)
         if pos <= end_of_list:
@@ -274,10 +237,16 @@ def refresh_menu_screen(state = 1):     #default to playing
     
     pygame.draw.rect(screen, darkgreen, (0,0,320,240),1)
     
-    number = int(get_current_station())
-    name = (stations[number])
-    station_name = station_font.render(name, 1, (red))
- 
+    # error somewhere here, so lets try try
+    try:
+        number = int(get_current_station(number_of_stations))
+        name = (stations[number])
+        station_name = station_font.render(name, 1, (red))
+    except:
+        print ("Station Number  problem" )
+        print ("Station .... " + station_name)
+    
+
     
     #additional_data = title_font.render(statn()[2], 1, (blue))
     screen.blit(station_name,(12,6))   #13,145
@@ -329,7 +298,9 @@ yellow = 255, 255, 0
 red = 255, 0, 0
 green = 0, 255, 0
 darkgreen = 0, 128, 0
-stations = station_list()   
+number_of_stations = len(station_list())
+stations = station_list() 
+#print (len(stations))  
 refresh_menu_screen()  #refresh the menu interface
 # Download weather on startup if file is older than an hour
 #wget  -q -O - "http://api.openweathermap.org/data/2.5/weather?id=5131321&units=imperial&APPID=abfabebe9f6f95d0bd9bda048799910b"
